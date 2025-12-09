@@ -105,9 +105,6 @@ Battery Voltage, RSSI Signal, CPU Usage
   - Top 15 most impactful features based on gain scores  
 
 ---
-
-## Submission Package Includes
-
 ## Submission Package Includes
 
 | Component | Description |

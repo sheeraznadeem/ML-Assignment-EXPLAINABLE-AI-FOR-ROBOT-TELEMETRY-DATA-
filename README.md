@@ -29,7 +29,7 @@ The models classify system states into three categories:
 | `ML_assignment_03.ipynb` | Main Jupyter Notebook containing complete code for preprocessing, training, evaluation, and explainability |
 | `/models/` | Folder containing trained model files: `model_cnn.h5`, `model_fnn.h5`, `model_xgboost.pkl` |
 | `/results/` | Folder containing result visualizations, confusion matrices, and SHAP explainability plots |
-| `Report_Explainable_AI.pdf` | Final written report (10 pages) covering methodology, results, and analysis |
+| `Report_Explainable_AI.pdf` | Final written report covering methodology, results, and analysis |
 | `README.md` | Instructions for reproducing and running this assignment |
 
 ---

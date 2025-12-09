@@ -29,6 +29,7 @@ The models classify system states into three categories:
 | `ML_assignment_Code File.ipynb` | Main Jupyter Notebook containing complete code for preprocessing, training, evaluation, and explainability |
 | `/models/` | Folder containing trained model files: `model_cnn.h5`, `model_fnn.h5`, `model_xgboost.pkl` |
 | `/results/` | Folder containing result visualizations, confusion matrices, and SHAP explainability plots |
+| `/dataset/` | All telemetry dataset files: `Dos1.csv`, `Dos2.csv`, `Malfunction1.csv`, `Malfunction2.csv`, `Normal1.csv`, `Normal2.csv`, `Normal3.csv`, `Normal4.csv` |
 | `ML assignment Report.pdf` | Final written report covering methodology, results, and analysis |
 | `README.md` | Instructions for reproducing and running this assignment |
 

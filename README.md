@@ -1,6 +1,6 @@
 # ML Assignment: Explainable AI for Robot Telemetry Data
 
-## Student Note
+## Note
 As per the instructor’s guideline, students with roll numbers ending in an even digit are required to implement **even-numbered models only**.  
 Therefore, this submission includes the following models:
 

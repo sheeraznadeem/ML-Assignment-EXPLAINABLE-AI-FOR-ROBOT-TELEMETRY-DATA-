@@ -151,7 +151,7 @@ Battery Voltage, RSSI Signal, CPU Usage
 | Model Implementation (Even Models Only) | Completed |
 | Model Evaluation Metrics | Completed |
 | Explainable AI Analysis (SHAP, PDP) | Completed |
-| Report (10 Pages) | Completed |
+| Report | Completed |
 | Trained Model Files | Included |
 | Visualizations Folder | Included |
 | README File | Included |

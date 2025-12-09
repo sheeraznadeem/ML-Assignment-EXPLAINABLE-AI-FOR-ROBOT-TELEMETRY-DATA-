@@ -26,7 +26,7 @@ The models classify system states into three categories:
 
 | File/Folder | Description |
 | ----------- | ----------- |
-| `ML_assignment_03.ipynb` | Main Jupyter Notebook containing complete code for preprocessing, training, evaluation, and explainability |
+| `ML_assignment_Code File.ipynb` | Main Jupyter Notebook containing complete code for preprocessing, training, evaluation, and explainability |
 | `/models/` | Folder containing trained model files: `model_cnn.h5`, `model_fnn.h5`, `model_xgboost.pkl` |
 | `/results/` | Folder containing result visualizations, confusion matrices, and SHAP explainability plots |
 | `ML assignment Report.pdf` | Final written report covering methodology, results, and analysis |
@@ -53,7 +53,7 @@ The following Python libraries are required (available by default in Google Cola
 ## How to Run the Code
 
 ### Option 1: Open in Google Colab
-1. Upload `ML_assignment_03.ipynb` to Google Colab.  
+1. Upload `ML_assignment_Code File.ipynb` to Google Colab.  
 
 ### Option 2: Open from GitHub
 1. File → Open Notebook → GitHub → Paste repository link  
@@ -125,7 +125,7 @@ Battery Voltage, RSSI Signal, CPU Usage
 
 | Component | Description |
 | --------- | ----------- |
-| `ML_assignment_03.ipynb` | Fully implemented and commented code notebook |
+| `ML_assignment_Code File.ipynb` | Fully implemented and commented code notebook |
 | `/models/` | Saved trained models (.h5 and .pkl formats) |
 | `/results/` | Confusion matrices, accuracy charts, SHAP plots |
 | `/dataset/` | All telemetry dataset files: `Dos1.csv`, `Dos2.csv`, `Malfunction1.csv`, `Malfunction2.csv`, `Normal1.csv`, `Normal2.csv`, `Normal3.csv`, `Normal4.csv` |

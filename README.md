@@ -59,25 +59,41 @@ The following Python libraries are required (available by default in Google Cola
 1. File → Open Notebook → GitHub → Paste repository link  
 
 ### Upload Required Files
-Before running the notebook, upload the following files when prompted:
+Before running the notebook, upload the following files when prompted in Google Colab.
 
-**Model files:**  
-- `model_cnn.h5`  
-- `model_fnn.h5`  
-- `model_xgboost.pkl`  
+#### **Option 1: Run Full Training (Recommended)**
+If you want to train the models from scratch, upload **only the dataset files** listed below when prompted:
 
 **Dataset files:**  
 - `Dos1.csv`, `Dos2.csv`  
 - `Malfunction1.csv`, `Malfunction2.csv`  
 - `Normal1.csv`, `Normal2.csv`, `Normal3.csv`, `Normal4.csv`  
 
-### Run Notebook
-1. Go to `Runtime` → `Run All` to execute the entire notebook.  
-2. All preprocessing, training, model evaluation, and XAI analyses will be performed automatically.  
+The notebook will handle all preprocessing, training, evaluation, and explainability steps automatically.
 
-### View Results
-- Accuracy, precision, recall, F1-scores, confusion matrices, SHAP summaries, PDPs, and feature importance plots will display inline.  
-- Major results are also available in the `/results/` folder and summarized in the report.  
+#### **Option 2: Use Pre-Trained Models**
+If you prefer to skip training and directly evaluate pre-trained models, upload the following **model files** in addition to the dataset:
+
+**Model files:**  
+- `model_cnn.h5`  
+- `model_fnn.h5`  
+- `model_xgboost.pkl`  
+
+These models can be loaded directly to view performance metrics, confusion matrices, and explainability outputs without retraining.
+
+---
+
+### Run Notebook
+1. Open the notebook in Google Colab.  
+2. Upload the dataset (and model files if using pre-trained models) when prompted.  
+3. Go to `Runtime` → `Run All` to execute all cells sequentially.  
+4. The notebook will automatically display:  
+   - Accuracy, Precision, Recall, F1-scores  
+   - Confusion Matrices  
+   - SHAP Summaries and Dependence Plots  
+   - PDPs and Feature Importance Charts  
+
+All major outputs will also be saved in the `/results/` folder and summarized in the report.
 
 ---
 

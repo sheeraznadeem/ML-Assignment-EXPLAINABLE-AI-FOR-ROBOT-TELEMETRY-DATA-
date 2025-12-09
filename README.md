@@ -108,13 +108,17 @@ Battery Voltage, RSSI Signal, CPU Usage
 
 ## Submission Package Includes
 
+## Submission Package Includes
+
 | Component | Description |
 | --------- | ----------- |
 | `ML_assignment_03.ipynb` | Fully implemented and commented code notebook |
 | `/models/` | Saved trained models (.h5 and .pkl formats) |
 | `/results/` | Confusion matrices, accuracy charts, SHAP plots |
+| `/dataset/` | All telemetry dataset files: `Dos1.csv`, `Dos2.csv`, `Malfunction1.csv`, `Malfunction2.csv`, `Normal1.csv`, `Normal2.csv`, `Normal3.csv`, `Normal4.csv` |
 | `Report_Explainable_AI.pdf` | 10-page report with methodology, figures, and discussion |
 | `README.md` | Instructions and reproduction steps |
+
 
 ---
 
